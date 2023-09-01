@@ -10,6 +10,7 @@ public class ClickFunction : MonoBehaviour
 
     public void OnMouseDown()
     {
+        GameManager.Instance.AddPoints(10);
         Destroy(target);
     }
 }
